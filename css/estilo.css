@@ -56,4 +56,22 @@
   border-radius: 50%;
 }
 
+h3 {
+  text-align: start;
+}
+h3 span {
+  padding-left: 15rem;
+  justify-content: end;
+  margin: auto;
+}
+
+#font1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: orangered;
+}
+
+.nav-link {
+  color: orangered;
+}
+
 /*# sourceMappingURL=estilo.css.map */
