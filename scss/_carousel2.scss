@@ -1,5 +1,11 @@
 .carousel{
     margin: auto;
     justify-content: center;
-    width: 40%;
+    width: 50%;
+    carousel-inner{
+        carousel-item{
+            width: 10rem;
+            height: 10rem;
+        }
+    }
 }
