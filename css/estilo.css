@@ -68,17 +68,16 @@ h3 span {
 
 #font1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: orangered;
+  color: rgb(255, 125, 78);
   font-size: 2rem;
 }
 
 .nav-link {
-  color: orangered;
+  color: rgb(255, 125, 78);
 }
 
 .carousel {
   margin: auto;
-  background-color: aqua;
   justify-content: center;
   width: 60%;
   height: 70%;
