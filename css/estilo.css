@@ -76,4 +76,12 @@ h3 span {
   color: orangered;
 }
 
+.carousel {
+  margin: auto;
+  background-color: aqua;
+  justify-content: center;
+  width: 60%;
+  height: 70%;
+}
+
 /*# sourceMappingURL=estilo.css.map */
