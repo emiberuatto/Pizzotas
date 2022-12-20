@@ -54,20 +54,22 @@
   width: 6rem;
   height: 6rem;
   border-radius: 50%;
+  background-color: orangered;
 }
 
 h3 {
-  text-align: start;
+  text-align: center;
 }
 h3 span {
-  padding-left: 15rem;
-  justify-content: end;
+  padding-left: 3rem;
+  justify-content: start;
   margin: auto;
 }
 
 #font1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: orangered;
+  font-size: 2rem;
 }
 
 .nav-link {
