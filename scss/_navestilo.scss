@@ -1,9 +1,5 @@
 
-    .navbar{
-        position: absolute;
-        z-index: 1;
-        background-color:rgba(250, 235, 215, 0.485) ;
-    }
+   
     .navbar-brand{
         margin-left: 1.5rem;
     }
@@ -13,6 +9,12 @@
         ul{
             li{
                 margin: 0 2rem;
+                font-size: 1.5rem;
+                color: rgb(0, 0, 0);
+                text-transform: none;
+                nav-link{
+                    color: black;
+                }
             }
         }
         

@@ -1,10 +1,4 @@
 @import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200);
-.navbar {
-  position: absolute;
-  z-index: 1;
-  background-color: rgba(250, 235, 215, 0.485);
-}
-
 .navbar-brand {
   margin-left: 1.5rem;
 }
@@ -15,6 +9,12 @@
 }
 #navbarNav ul li {
   margin: 0 2rem;
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  text-transform: none;
+}
+#navbarNav ul li nav-link {
+  color: black;
 }
 
 #carouselExampleCaptions {
@@ -104,7 +104,7 @@ h3 span {
 }
 
 .info-wrap {
-  margin-top: 2rem;
+  margin-top: 8rem;
 }
 
 /*# sourceMappingURL=estilo.css.map */
