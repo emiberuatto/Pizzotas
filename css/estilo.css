@@ -1,3 +1,10 @@
+@import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200);
+.navbar {
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(250, 235, 215, 0.485);
+}
+
 .navbar-brand {
   margin-left: 1.5rem;
 }
@@ -71,7 +78,7 @@ h3 span {
 }
 
 #font1 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: rgb(255, 125, 78);
   font-size: 2rem;
 }
@@ -83,7 +90,7 @@ h3 span {
 .carousel {
   margin: 5rem auto;
   justify-content: center;
-  width: 50%;
+  width: 100%;
 }
 .carousel carousel-inner carousel-item {
   width: 10rem;
