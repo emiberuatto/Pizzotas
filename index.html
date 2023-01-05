@@ -15,7 +15,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light  w-100">
         <div class="container-fluid" >
             <a class="navbar-brand" href="#" id="font1">
-                <img src="./imagenes/PIZZOTASFINAL 400 (1).png" alt="" width="30" height="24" class="d-inline-block align-text-top" >
+                <img src="./imagenes/PIZZOTASFINAL 400 (1).png" alt="" width="30" height="24" class="d-inline-block align-text-center" >
                 Pizzotas
               </a>          
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,16 +24,16 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav navbar-justify-content-end" id="barranav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Precios</a>
+                <a class="nav-link active" aria-current="page" href="#fondoPrecios">Precios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Galería</a>
+                <a class="nav-link" href="#infoUbicacion">Ubicación</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="#infoContacto">Contacto</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Redes</a>
+                <a class="nav-link disabled" href="#infoRedes" tabindex="-1" aria-disabled="true">Redes</a>
               </li>
             </ul>
           </div>
@@ -86,9 +86,9 @@
 
 <!-- horarios -->
 
-<div class="container-fluid">
-  <h2>Pizzotas horarios: Lunes a Domingos de 20hs a 00hs</h2>
-</div>
+<div class="container-fluid" id="fondoPrecios">
+  <h2>Lista de precios</h2>
+
 
 <!-- Fin horarios -->
 
@@ -268,6 +268,35 @@
   </div>
 </div>
 
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop4">
+  Bebidas
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel4" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel4">Bebidas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h3>Coca Cola 1.5lta<span>$600</span></h3>
+        
+        <h3>Coca Colla 2.5lts<span>$800</span></h3>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+</div>
+
 <div id="carouselExampleSlidesOnly" class="carousel slide  justify-content-center" data-bs-ride="carousel">
   <div class="carousel-inner justify-content-center">
     <div class="carousel-item active">
@@ -287,7 +316,7 @@
 
 
 <!-- map -->
-<div class="container-fluid w-100 justify-content-center">
+<div class="container-fluid w-100 justify-content-center" id="infoUbicacion">
   <h2>Ubicación</h2>
 </div>
 <div class="container-fluid w-100">
@@ -301,7 +330,7 @@
 
 
 
-<div class="info-wrap">
+<div class="info-wrap" id="infoContacto">
   <div class="row justify-content-center">
     <h1>Contacto</h1>
     <div class="col-lg-3 col-md-6 info">
@@ -330,7 +359,7 @@
   <div class="container">
     <h3>Pizzotas</h3>
     <p>Una empresa familiar que trabaja para compartir buenos momentos en familia.</p>
-    <div class="social-links">
+    <div class="social-links" id="infoRedes">
       <a href="https://www.facebook.com/pizzotas.pizzas/" target="_blank" class="twitter"><i class="bx bxl-twitter" ></i> <img src="./imagenes/facebook4.png" class="sociales" alt=""></a>
       <a href="https://www.instagram.com/pizzotaspizzas/" target="_blank" class="facebook"><i class="bx bxl-facebook"></i> <img src="./imagenes/instagram (2).png" class="sociales" alt=""></a>
       <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
