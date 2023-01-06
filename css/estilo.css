@@ -17,6 +17,14 @@
   color: black;
 }
 
+#whatsapp {
+  height: 4rem;
+  position: fixed;
+  z-index: 1;
+  right: 4rem;
+  bottom: 2rem;
+}
+
 #carouselExampleCaptions {
   width: 100%;
   margin: auto;
@@ -75,6 +83,7 @@ h3 span {
 
 #fondoPrecios {
   padding: 3rem 0;
+  background-color: rgb(237, 237, 171);
 }
 
 #font1 {
@@ -90,17 +99,28 @@ h3 span {
 .carousel {
   margin: 5rem auto;
   justify-content: center;
-  width: 100%;
+  width: 50%;
+}
+.carousel carousel-inner {
+  width: 60%;
 }
 .carousel carousel-inner carousel-item {
-  width: 10rem;
-  height: 10rem;
+  width: 5rem;
+  height: 5rem;
 }
 
 .sociales {
   width: 3rem;
   height: 3rem;
-  margin: 1rem 2rem;
+  margin: 3rem 4rem 5rem;
+}
+
+#footer {
+  margin-top: 4rem;
+}
+
+.galeria {
+  margin-top: 3rem;
 }
 
 .info-wrap {
